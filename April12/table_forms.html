@@ -1,0 +1,190 @@
+<!DOCTYPE html><!-- 1:22 whisper-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <!-- TABLES -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Mary Cyrelle</td>
+            <td>Quezon City</td>
+            <td>Single</td>
+        </tr>
+
+        <tr>
+            <td>Howlin</td>
+            <td>Cebu</td>
+            <td>Single</td>
+        </tr>
+    </table>
+
+    <table border="1" bgcolor="pink" cellspacing="2" cellpadding="5">
+        <caption>Table of my Savings</caption>
+        <thead>
+            <!--head ng table-->
+            <tr>
+                <th>Month</th>
+                <th>Time</th>
+                <th>Saving</th>
+            </tr>
+           </thead>
+        
+           <tbody>
+            <!--body ng table-->
+            <tr>
+                <td>January</td>
+                <td>12:00 pm</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>1:00 pm</td>
+                <td>2000</td>
+            </tr>
+           </tbody>
+    
+           <tfoot>
+            <!--footer ng table-->
+            <tr>j
+                <td>Total</td>
+                <td colspan="2">3000</td>
+            </tr>
+           </tfoot>
+    </table>
+     
+    <!--IFRAME-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PEM0Vs8jf1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    
+    
+    <!--FORMS-->
+    <form>
+        <label> Username: <input type="text"></label>
+        <label> Password: <input type="password"></label>
+        <input type="submit" value="Submit"
+    </form>
+         <br>
+    
+    
+    <form action="submit.php" method="post" name="registration_form">
+        <label for="username"> Username: </label> 
+        <input type="text" id="username" name="username" placeholder="Input Username Here" /><br>
+
+        <label> Password: </label> 
+        <input type="password" id="password" name="password" placeholder="Input Password" /> <br>
+        
+
+        <label for="fruit"> Select Your Favorite Fruits </label>
+
+        <input type="checkbox" id="fruit" name="fruit"/>
+        <label for="apple"> Apple</label>
+
+        <input type="checkbox" id="fruit" name="fruit/>"
+        <label for="mango"> Mango</label>
+
+        <input type="checkbox" id="fruit" name="fruit/>"
+        <label for="banana"> Banana</label>
+        
+        <input type="checkbox" id="fruit" name="fruit/>"
+        <label for="orange"> Orange</label><br>
+
+
+        <!--RADIO can only check one box at a time-->
+
+        <label for="gender">Select Your Gender:</label>
+
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="male"> Male</label>
+
+        <input type="radio" id="gender"name="gender" value="female">
+        <label for="female"> Female</label>
+
+        <!--FILE-->
+        <div>
+            <label for="avatar"> Slect Picture</label>
+            <input type="file" name="avatar" id="avatar" accept="image/jpeg">
+
+        </div>
+
+        <!--LARGE FILE OR TEXT AREA-->
+        <div>
+            <label for="address"> Address:</label>
+            <textarea name="adress" id="" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <!--SELECT-->
+        <div>
+            <label for="color"> Select Your Favorite Color</label>
+            <select name="colors" id="colors"><!--you can add multiple kung gusto mo madami-->
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="orange">Orange</option>
+                <option value="brown">Brown</option>
+                <option value="gray">Gray</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+        </div>
+
+
+
+        <!-- FOR FIELD SET-->
+        <div>
+            <fieldset>
+                <legend> User Details</legend>
+                
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Input Name">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Input E-Email">
+                </div>
+                
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="Input Phone Number">
+                </div>
+
+
+            </fieldset>
+
+        </div>
+
+        <!--RESSET-->
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+        
+        
+        <!--SUBMIT-->
+        <input type="submit" value="Register"/>
+
+
+
+
+
+    
+        
+    </form>
+
+
+</body>
+</html>

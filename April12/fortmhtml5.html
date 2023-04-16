@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 FORM</title>
+</head>
+
+<body>
+    <form action="" method="post">
+
+        <!--TYPE TEXT-->
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="" placeholder="Input Username" required />
+        </div>
+
+        <!--DATE-->
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" value="" placeholder="Input Date" required />
+        </div>
+
+        <!--COLOR-->
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color" value="" placeholder="Input Color" required />
+        </div>
+        
+        <!--EMAIL-->
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" value="" placeholder="Input E-mail Address" required />
+        </div>
+
+        <!--NUMBER-->
+        <div>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" value="" placeholder="Input Number" min="0" required />
+        </div>
+         
+        <!--PHONENUMBER-->
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phonen" name="phone" value="" placeholder="Input Phone Number" pattern="[+]63[0-9]{10}" required />
+        </div>
+        
+        <div>
+            <!--RESET-->
+            <input type="reset" value="Reset">
+   
+            <!--SUBMIT-->
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>   
+    
+    
+   
+</body>
+
+
+
+</html>
