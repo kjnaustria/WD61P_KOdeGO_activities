@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{ box-sizing: border-box;}
+        div{
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+            margin:20px;}
+
+
+        .box1{
+            background-color: aqua;
+            border: 1px solid black;}
+
+        
+        .box2{
+            background-color: pink;
+            border: 1px solid red;
+            box-sizing: border-box;}
+        .box3{
+            width: 100px;
+            height: 100px; 
+        border: 1px solid green;     }
+
+</style>
+</head>
+
+
+<body>
+
+    <div class="box1">
+        <h1>Content of Box1</h1>
+        <p>This is an example of the box without box-sizing</p>
+
+        <div class="box3">
+            <h2> Content of Box3</h2>
+            <p>Content of Box 3</p>
+    
+        </div>
+    </div>
+    
+    <div class="box2">
+        <h1>Content of Box2</h1>
+        <p> is an example of the box with box-sizing</p>
+    </div>
+    
+   
+</body>
+</html>

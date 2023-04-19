@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .flex-item {
+            width: 200px;
+            height: 10px;
+            background: rgb(87, 85, 85);                 
+        }
+
+        .header{
+          border: 1px solid red;
+          background: pink;
+          height: 400px;
+          width: 600px;
+        }
+        
+        .menu{
+            border: 1px solid rgb(3, 48, 3);
+            background: rgb(172, 235, 172);
+            height: 800px;
+            width: 600px;
+        }
+
+        .article1{
+            border: 1px solid darkblue;
+            background: lightblue;
+            height: 400px;
+            width: 300px; 
+        }
+
+        .article2{
+            border: 1px solid black;
+            background: lightgray;
+            height: 400px;
+            width: 300px;
+        }
+
+        .footer{
+            border: 1px solid rgb(248, 162, 2);
+            background: rgb(252, 217, 153);
+            height: 100px;
+            width: 1200px;   
+        }
+
+    </Style>
+
+</head>
+
+
+<body>
+
+    <div class="flex-container">
+        
+        <div class="flex-item header" >Header</div>
+        <div class="flex-item menu" >Menu</div>
+        <div class="flex-item article1" >Article</div>
+        <div class="flex-item article2" >Article</div>
+        <div class="flex-item footer" >Footer</div>
+
+    </div>
+    
+</body>
+</html>

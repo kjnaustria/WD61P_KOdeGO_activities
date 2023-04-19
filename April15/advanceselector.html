@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector</title>
+
+    <style>
+
+        a[others^='www'] {
+            color: red;
+        }
+
+        a[others$='.com'] {
+            color: red;
+        } 
+
+        div, p{
+            border: 1px solid green;
+        }
+        div p {
+            color:  yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <a other="1" href="">Hello World!</a>
+        <a other="www.abc" href="">Hello World 2</a>
+        <a other="www.com" href="">Hello World 3</a>
+        <p>Anak ni Div</p>
+    </div>
+
+    <p>Hello</p>
+    <span>This is a paragrap in a span Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, optio?</span>
+    
+    <div>
+        <h1>Lorem, ipsum.</h1>
+        <div>
+            <p>
+                Anak ako ni Div 2
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla!
+            </p>
+        </div>
+        <p>Anak ako ni Div 3</p>
+    </div>
+    
+</body>
+
+
+
+</html>

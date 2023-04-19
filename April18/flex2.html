@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parentclass{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: baseline;
+            height: 250px;
+            border: 1px solid red;
+            align-items: center;
+        }
+        .chilclass{
+            width: 500px;
+            height: 100px;
+
+        }
+        .parentclass > div:nth-child(1){
+            background-color: aqua;
+        }
+        .parentclass > div:nth-child(2){
+            background-color: brown;
+        }
+        .parentclass > div:nth-child(3){
+            background-color: green;
+        }
+        .parentclass > div:nth-child(4){
+            background-color: red;
+        }
+        .parentclass > div:nth-child(5){
+            background-color: black;
+        }
+        .parentclass > div:nth-child(6){
+            background-color: gray;
+        }
+        .parentclass > div:nth-child(7){
+            background-color: hotpink;
+        }
+        .parentclass > div:nth-child(8){
+            background-color: pink;
+        }
+        .parentclass > div:nth-child(9){
+            background-color: darkblue;
+        }
+        .parentclass > div:nth-child(10){
+            background-color: orange;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="parentclass">
+        <div class="childclass">1</div>
+        <div class="childclass">2</div>
+        <div class="childclass">3</div>
+        <div class="childclass">4</div>
+        <div class="childclass">5</div>
+        <div class="childclass">6</div>
+        <div class="childclass">7</div>
+        <div class="childclass">8</div>
+        <div class="childclass">9</div>
+        <div class="childclass">10</div>
+
+    </div>
+
+    
+</body>
+</html>
